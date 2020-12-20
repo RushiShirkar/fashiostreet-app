@@ -1,0 +1,21 @@
+{
+    "name": "fashiostreet/throttle",
+    "description": "throttle package for multiple request attack",
+    "type": "project",
+    "require": {
+        "php" : ">=7.2",
+        "laravel/framework": "5.6.*"
+    },
+    "license": "fashiostreet",
+    "authors": [
+        {
+            "name": "sagar shinde",
+            "email": "sagarshinde573@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "fashiostreet\\throttle\\": "src/"
+        }
+    }
+}

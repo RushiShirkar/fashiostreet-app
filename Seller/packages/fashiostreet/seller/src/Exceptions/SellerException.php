@@ -1,0 +1,16 @@
+<?php
+namespace fashiostreet\seller\Exceptions;
+
+use Exception;
+use FS_Response;
+use Illuminate\Support\Facades\DB;
+
+class SellerException extends Exception
+{
+    //Tabs Exception
+    public function render($request)
+    {
+        DB::rollBack();
+        return FS_Response::error(500,$this->getMessage());
+    }
+}

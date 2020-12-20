@@ -1,0 +1,16 @@
+{
+    "name": "fashiostreet/Validation",
+    "description": "basic validation",
+    "type": "project",
+    "require": {
+        "php" : ">=7.2",
+        "laravel/framework": "5.6.*"
+    },
+    "license": "fashiostreet",
+    "authors": [
+        {
+            "name": "sagar shinde",
+            "email": "sagarshinde573@gmail.com"
+        }
+    ]
+}

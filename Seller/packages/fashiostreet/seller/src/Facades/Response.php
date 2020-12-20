@@ -1,0 +1,12 @@
+<?php
+namespace fashiostreet\seller\Facades;
+
+use Illuminate\Support\Facades\Facade;
+
+class Response extends Facade
+{
+    protected static function getFacadeAccessor()
+    {
+        return 'FS_Response';
+    }
+}
